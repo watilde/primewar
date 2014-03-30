@@ -4,12 +4,12 @@ function Prime(stdin) {
   this.stdin = stdin;
 }
 Prime.prototype.is = function (n) {
-  if (n < 2) { return false; }
-  if (n === 2) { return true; }
-  if (n % 2 === 0) { return false; }
+  if (n < 2) return false;
+  if (n === 2) return true;
+  if (n % 2 === 0) return false;
   var i = 3;
   for (i; i * i <= n; i += 2) {
-    if (n % i === 0) { return false; }
+    if (n % i === 0) return false;
   }
   return true;
 };
