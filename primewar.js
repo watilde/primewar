@@ -1,3 +1,4 @@
+// @author Daijiro Wachi <daijiro.wachi@gmail.com>
 'use strict';
 var stdin, stdout;
 function Prime(stdin) {
